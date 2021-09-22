@@ -1,0 +1,412 @@
+body{
+    margin: 0;
+    
+}
+
+.container-main{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+    /* First */
+
+.container-first{
+    display: flex;
+}
+
+.left-side{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.picture{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.p-name, .p-secondname{
+    text-align: center;
+    font-size: 45px;
+}
+
+
+.p-name{
+    margin: 80px 0 0 0;
+    letter-spacing: 30px;
+}
+.p-secondname{
+    font-weight: bold;
+    margin: 0;
+    letter-spacing: 25px;
+}
+
+.p-work{
+    font-size: 25px;
+}
+
+
+.backcolor{
+    margin-top: 100px;
+    background: #bed8ec;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+    /* CONTACT */
+ 
+.contact{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.h-for-first{
+    
+    border: solid 1px #424243;
+    background: black;
+    color: white;
+    margin: -20px 0;
+    padding: 10px;
+    width: 275px;
+}
+
+.my-all-info{
+    
+}
+
+.my-contacts-info{
+    margin-top: 50px;
+}
+
+.size{
+    font-size: 30px;
+}
+
+.fb-margin{
+    margin-right: 10px;
+}
+
+.twitt-margin{
+    margin-right: 17px;
+}
+
+.inst-margin{
+    margin-right: 11px;
+}
+
+.you-margin{
+    margin-right: 15px;
+}
+
+.img-contacts{
+    height: 25px;
+}
+
+.img-add{
+    margin-right: 5px;
+}
+
+.img-tell{
+    margin-right: 10px;
+}
+
+.img-mail{
+    margin-right: 5px;
+}
+
+.img-site{
+    margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+    /* FOLLOW */
+
+.follow{
+    margin-top: 66px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.my-follow-info{
+    margin-top: 50px;
+}
+
+.h-for-another{
+    border: solid 1px #424243;
+    background: black;
+    color: white;
+    margin: 0;
+    padding: 10px;
+    width: 275px;
+}
+
+.img-follow{
+    height: 25px;
+}
+
+.ingoing{
+    text-decoration: none;
+    color: black;
+}
+
+.margin-for-info-follow{
+    margin-top: -28px;
+}
+
+.img-facebook{
+    float: left;
+    margin-left: 196px;
+    height: 35px;
+}
+
+
+
+.ingoing-margin-twitt{
+    margin-right: 30px;
+}
+
+.ingoing-margin-inst{
+    margin-right: 10px;
+}
+
+.ingoing-margin-youtube{
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+    /* LANGUAGE */
+
+.language{
+    margin-top: 66px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.my-language-info{
+    margin-top: 50px;
+}
+
+.img-circles-size{
+    height:15px;
+    margin-left: 5px;
+}
+
+.russian-lang{
+    
+}
+
+
+.new-change{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.img-circle-arabic{
+    margin-left: 5px;
+}
+
+.margin-for-info-language{
+    margin-top: -28px;
+}
+
+.eng-lang{
+    
+}
+
+.img-first-circle-eng{
+    margin-left: 7px;
+}
+
+
+
+.ukrain-lang{
+  
+}
+
+.img-first-circle-french{
+    margin-left: 9px;
+}
+
+.spanich-lang{
+    margin-right: 6px;
+    float: left;
+}
+
+
+    /* HOBBIES */
+
+
+.hobbies{
+    margin-top: 66px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.my-hobbies-info-first{
+    display: flex;
+    flex-direction: row;
+}
+
+.photography, .swimming{
+    font-size: 22px;
+}
+
+.photography{
+    margin-right: 35px;
+}
+
+.swimming{
+    margin-left: 35px;
+}
+
+.my-hobbies-info-second{
+    margin-top: 50px;
+    
+}
+
+.bowling{
+    font-size: 22px;
+    margin-right: 70px;
+}
+
+.music{
+    font-size: 22px;
+}
+
+
+
+
+
+    /* Second */
+
+    
+.right-side{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin: 0px 140px;
+    font-family: 'Lato', sans-serif;
+}
+
+.about-me-img{
+    height: 40px;
+    float: left;
+}
+
+.h-for-second-about-me{
+    margin-left: 60px;
+    border: solid 1px #343334;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    margin-bottom: 50px;
+}
+
+.text-right{
+    font-size: 35px;
+    color: #777778;
+    margin: 0;
+}
+
+.h-for-second{
+    margin-left: 60px;
+    border: solid 1px #343334;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    margin-top: 110px;
+}
+
+.school-name-one{
+    margin-top: 85px;
+}
+
+.date{
+    float: right;
+    font-weight: normal;
+    color: grey;
+}
+
+.first-section-skills{
+    display: flex;
+    flex-direction: column;
+}
+
+.first-div{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.word{
+    font-size: 25px;
+}
+
+.second-div{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.word-html{
+    
+}
+
+.word-css{
+    
+}
+
+.word-js{
+    margin-right: 13px;
+}
+
+
+.second-section-skills{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.img-circles-for-skills{
+    height: 20px;
+    margin-left: 30px;
+}
+
+
+.main-div-for-two-skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+
+
